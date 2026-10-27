@@ -1,1 +1,1 @@
-# template-repository examples
+# cord-development examples

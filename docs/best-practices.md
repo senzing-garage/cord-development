@@ -1,1 +1,1 @@
-# template-repository best practices
+# cord-development best practices
