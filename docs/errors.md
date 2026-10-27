@@ -1,1 +1,1 @@
-# template-repository errors
+# cord-development errors

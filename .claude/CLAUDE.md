@@ -4,16 +4,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a **template repository** for Senzing Garage projects. It contains exemplar artifacts (standard files) that other repositories should include: README, CONTRIBUTING, CODE_OF_CONDUCT, LICENSE, CHANGELOG, and GitHub workflows.
+This repository holds CORD, a "Senzing-Ready Data Collection".
+What a CORD contains is not yet defined anywhere. Do not infer it.
+The repository was created from [senzing-garage/template-repository](https://github.com/senzing-garage/template-repository) and currently holds only the standard Senzing Garage artifacts: README, CONTRIBUTING, CODE_OF_CONDUCT, LICENSE, CHANGELOG, SECURITY, and GitHub workflows.
 
 ## CI/CD and Automation
 
-GitHub Actions workflows use reusable workflows from [senzing-factory/build-resources](https://github.com/senzing-factory/build-resources):
+GitHub Actions workflows are thin callers of reusable workflows from [senzing-factory/build-resources](https://github.com/senzing-factory/build-resources).
+See [.github/workflows/README.md](../.github/workflows/README.md) for the full list.
 
-- **lint-workflows.yaml**: Runs super-linter on pushes to non-main branches and PRs to main
-- **spellcheck.yaml**: Runs cspell on PRs to main
+- **lint-workflows.yaml**: Runs super-linter on PRs to main, restricted to files under `.github/`
+- **spellcheck.yaml**: Runs cspell on PRs to main, configured by `.vscode/cspell.json`
+- **check-claude-attribution.yaml**: Reports a failing check on a PR to main that carries a Claude attribution trailer
 - **claude-pr-review.yaml**: Automated Claude PR review on opened/synchronized PRs
 - **dependabot-approve-and-merge.yaml**: Auto-approves and merges dependabot PRs
+- **move-pr-to-done-dependabot.yaml**: Moves a closed PR to "Done" on the Garage project board
+- **add-to-project-garage-dependabot.yaml**: Adds a PR to the Garage project board
 - **add-labels-standardized.yaml**: Adds labels to new issues
 - **add-to-project-garage.yaml**: Adds issues to the Garage project board
 

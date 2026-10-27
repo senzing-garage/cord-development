@@ -7,26 +7,13 @@ This project adheres to [Semantic Versioning].
 
 ## [Unreleased]
 
-- Thing 6
-- Thing 5
+## [0.0.0] - 2026-10-27
 
-## [1.0.1] - yyyy-mm-dd
+### Added to 0.0.0
 
-### Added to 1.0.1
-
-- Thing 4
-
-### Fixed in 1.0.1
-
-- Thing 3
-
-## [1.0.0] - yyyy-mm-dd
-
-### Added to 1.0.0
-
-- Thing 2
-- Thing 1
+- Initial repository, created from [senzing-garage/template-repository]
 
 [CommonMark]: https://commonmark.org/
 [Keep a Changelog]: https://keepachangelog.com/
 [Semantic Versioning]: https://semver.org/
+[senzing-garage/template-repository]: https://github.com/senzing-garage/template-repository
