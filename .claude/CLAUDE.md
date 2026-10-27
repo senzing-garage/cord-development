@@ -5,10 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Repository Purpose
 
 This repository holds CORD, a "Senzing-Ready Data Collection".
-What a CORD contains is not yet defined and no issue tracks that question yet; the
-definition is the development team's to write. DevOps owns the repository's
-configuration -- workflows, linters, branch protection -- not its contents.
-Do not infer it.
+What a CORD contains is not yet defined anywhere. Do not infer it.
 The repository was created from [senzing-garage/template-repository](https://github.com/senzing-garage/template-repository) and currently holds only the standard Senzing Garage artifacts: README, CONTRIBUTING, CODE_OF_CONDUCT, LICENSE, CHANGELOG, SECURITY, and GitHub workflows.
 
 ## CI/CD and Automation

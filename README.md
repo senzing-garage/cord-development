@@ -15,9 +15,7 @@ _Although it can be reviewed and commented on, do not use it yet._
 ## Synopsis
 
 **TODO: not yet written.** This repository holds CORD, a "Senzing-Ready Data Collection".
-DevOps created and configured this repository; its contents are owned by the
-development team. Nothing in this organization yet defines what a CORD contains,
-and that definition is the development team's to write.
+Nothing in this organization yet defines what a CORD contains.
 Do not fill this section in by inference.
 
 [![License Badge]][License]
